@@ -1,2 +1,2 @@
 # sajjadbappi.github.io
-A collection of questions, discoveries, and stories
+Personal academic website of Mohammed Sajjad Hossain Bappi.
