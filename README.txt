@@ -1,15 +1,9 @@
-ACADEMIC WEBSITE — UPDATED VERSION
+FOREST-GREEN ACADEMIC WEBSITE — FINAL WRITING UPDATE
 
-Open index.html in your browser.
+Includes all HTML, CSS, JavaScript, CV PDF, research workflow image, three research SVG illustrations, and four writing images.
 
-PORTRAIT: Place your image in assets/ named exactly Mohammed Sajjad Hossain Bappi.jpg.
+Your existing homepage portrait and Photography-page JPG files are not included in this ZIP because they were not available in the earlier website archive. Keep those JPG files in the assets/ folder of your GitHub repository.
 
-PRIVACY: The included October 2026 CV PDF contains a residential address and phone number. Remove those before publishing the PDF on GitHub Pages.
+To update the existing GitHub Pages website, replace writing.html and assets/style.css and upload the four new writing images under assets/. Other files in this ZIP are retained from the previous forest-green version.
 
-All other HTML pages and assets should be uploaded together.
-
-PHOTO SETUP: Copy all 11 original JPG files into the assets folder, keeping their filenames exactly unchanged. Ten photographs appear on Photography; Mohammed Sajjad Hossain Bappi.jpg appears on the homepage.
-
-CURRENT RESEARCH: Infographic is already included in assets/current-research-workflow.png and linked from research.html. No manual image renaming needed.
-
-UPDATED PHOTO FILENAMES: Copy your renamed JPGs into assets, preserving exact spelling, spaces, commas, and underscores. The 10 gallery JPGs and the portrait are not embedded in this ZIP because only a screenshot of filenames was provided.
+The Writing page is a single page. Click a title to expand its complete story or poem.
