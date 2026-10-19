@@ -146,3 +146,35 @@ h1,h2,h3{letter-spacing:-.025em}h1{font-size:clamp(2.65rem,5vw,4.25rem)}h2{font-
 .story-signature hr{width:100%;border:0;border-top:1px solid var(--line);margin:0 0 20px}
 .story-signature strong{font-weight:700}.story-signature em{font-style:italic}
 @media(max-width:650px){.writing-detail>summary{padding:21px 0}.writing-full{padding:0 0 34px}.writing-read{padding:8px 10px}.story-prose{font-size:16px}.story-photo{margin-bottom:25px}}
+
+
+/* Alignment correction — desktop and mobile, October 2026.
+   Kept at the end to override earlier overlapping homepage rules. */
+html,body{max-width:100%;overflow-x:clip}
+.wrap{width:min(1100px,calc(100% - 64px));margin-inline:auto}
+.hero-refined{
+  width:min(1100px,calc(100% - 64px));
+  margin-inline:auto;
+  grid-template-columns:minmax(0,1.4fr) minmax(0,.75fr);
+  gap:clamp(28px,5vw,64px);
+}
+.hero-refined > *{min-width:0}
+.hero-refined h1{font-size:clamp(2.5rem,4.5vw,4.25rem);overflow-wrap:break-word}
+.hero-refined .lead{max-width:650px}
+.hero-refined .buttons{gap:12px}
+.hero-refined .btn{max-width:100%;text-align:center}
+@media(max-width:850px){
+  .wrap,.hero-refined{width:calc(100% - 48px)}
+  .hero-refined{grid-template-columns:minmax(0,1fr);gap:32px}
+  .hero-refined h1{font-size:clamp(2.35rem,6vw,3.6rem)}
+}
+@media(max-width:640px){
+  .wrap,.hero-refined{width:calc(100% - 44px)}
+  .hero-refined{padding-top:48px;padding-bottom:60px}
+  .hero-refined h1{font-size:clamp(2.1rem,8.5vw,3rem);line-height:1.16}
+  .hero-refined .subtitle{font-size:14px;line-height:1.65}
+  .hero-refined .lead{font-size:16px;line-height:1.75}
+  .hero-refined .buttons{gap:10px}
+  .hero-refined .btn{padding:10px 15px}
+  .nav{column-gap:16px;row-gap:5px}
+}
